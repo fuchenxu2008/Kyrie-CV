@@ -1,0 +1,2719 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b8a8c770fad9aa939f766015381040b6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5c465b812b26802c8f26c84de788b2b6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4f72afc8a8dcca6c98544e13b2822770",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "422123c6618a69380192d40195baeba9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e3d6d11bdac9b9476ab56b135183fa2b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0f0599f6efb71735c998320ba0068644",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.10",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3d9c5f1e33224bdbc61663717c210beb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/var/www/html/ResumePage/src/assets/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "246d24455c9c5a52985531409556e989",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-fonts": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-plugin-google-fonts",
+      "id": "Plugin gatsby-plugin-google-fonts",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.3",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "librebaskerville",
+          "open sans"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": "Didier Franc <dev@didierfranc.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "95fa764ae51489386668eeab4065c874",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.36",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/var/www/html/ResumePage/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.56",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 630
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/var/www/html/ResumePage/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.30",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-remark-copy-linked-files"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.36",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2aa9d0ab2855daf45cf7cf5d7aa73321",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.56",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 630
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.56",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.39"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d3407fa2ff369aa6c6c438e9098bed7d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.30",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.30",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bdff6dca482e8d271ac97baa8233d264",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.22",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^3.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d2d7d8cb6c6a47b05adbc0c53121d327",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.41",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.41",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1d9a63a819fabc24df5abc35f55d8bad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c750d9d7cb8640786fd572c23d37c83e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/var/www/html/ResumePage/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.21",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.10"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "efb77afe6ba28e97b34f3fc597aa1b58",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/var/www/html/ResumePage",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "02e9b118cc1962a3dbf2bd85688db811",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/var/www/html/ResumePage",
+      "packageJson": {
+        "name": "kyrie-personal-page",
+        "description": "Kyrie's Personal Page",
+        "version": "1.0.1",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Aman Mittal <amandeepmittal@live.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.145"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.32"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "0.0.3"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.21"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "1.7.10"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.9"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.33"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.8"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.21"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.14"
+          },
+          {
+            "name": "react-icons",
+            "version": "2.2.7"
+          },
+          {
+            "name": "react-slick",
+            "version": "0.16.0"
+          },
+          {
+            "name": "slick-carousel",
+            "version": "1.8.1"
+          },
+          {
+            "name": "typography-theme-bootstrap",
+            "version": "0.16.7"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.9.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "92e402a66e42c94fe17874769891d7b9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Kyrie's Personal Page",
+        "description": "Kyrie's Personal Page and Resume"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-03-16T09:44:49.593Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f99a7c6922212e877491f821ee59ffc2",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc1803c1fe07a4a82b15caf28845d00b",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-03-15T17:48:59.708Z",
+      "accessTime": "2018-03-16T09:44:51.707Z",
+      "changeTime": "2018-03-15T17:48:59.708Z",
+      "birthTime": "2018-03-15T17:48:59.708Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 64769,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511002,
+      "blocks": 8,
+      "atimeMs": 1521193491706.7578,
+      "mtimeMs": 1521136139708.2917,
+      "ctimeMs": 1521136139708.2917,
+      "birthtimeMs": 1521136139708.2917,
+      "atime": "2018-03-16T09:44:51.707Z",
+      "mtime": "2018-03-15T17:48:59.708Z",
+      "ctime": "2018-03-15T17:48:59.708Z",
+      "birthtime": "2018-03-15T17:48:59.708Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3136736104abbcce8aaf82395706d579",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "relativePath": "portfolio",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-03-15T17:48:59.708Z",
+      "accessTime": "2018-03-16T09:44:51.711Z",
+      "changeTime": "2018-03-15T17:48:59.708Z",
+      "birthTime": "2018-03-15T17:48:59.708Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "portfolio",
+      "ext": "",
+      "name": "portfolio",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511149,
+      "blocks": 8,
+      "atimeMs": 1521193491710.7578,
+      "mtimeMs": 1521136139708.2917,
+      "ctimeMs": 1521136139708.2917,
+      "birthtimeMs": 1521136139708.2917,
+      "atime": "2018-03-16T09:44:51.711Z",
+      "mtime": "2018-03-15T17:48:59.708Z",
+      "ctime": "2018-03-15T17:48:59.708Z",
+      "birthtime": "2018-03-15T17:48:59.708Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b11a1744f7261162fd6fe0c9c41613e7",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "relativePath": "portfolio/modals",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2018-03-15T17:48:58.760Z",
+      "accessTime": "2018-03-16T09:44:51.715Z",
+      "changeTime": "2018-03-15T17:48:58.760Z",
+      "birthTime": "2018-03-15T17:48:58.760Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "modals",
+      "ext": "",
+      "name": "modals",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511158,
+      "blocks": 8,
+      "atimeMs": 1521193491714.7578,
+      "mtimeMs": 1521136138760.2856,
+      "ctimeMs": 1521136138760.2856,
+      "birthtimeMs": 1521136138760.2856,
+      "atime": "2018-03-16T09:44:51.715Z",
+      "mtime": "2018-03-15T17:48:58.760Z",
+      "ctime": "2018-03-15T17:48:58.760Z",
+      "birthtime": "2018-03-15T17:48:58.760Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/avatar.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/avatar.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/avatar.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3923cf943ed81145f357ef2c1bebd13c",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/avatar.jpg",
+      "relativePath": "avatar.jpg",
+      "extension": "jpg",
+      "size": 63374,
+      "prettySize": "63.4 kB",
+      "modifiedTime": "2018-03-15T17:48:54.512Z",
+      "accessTime": "2018-03-15T17:48:53.544Z",
+      "changeTime": "2018-03-15T17:48:54.512Z",
+      "birthTime": "2018-03-15T17:48:54.512Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "avatar.jpg",
+      "ext": ".jpg",
+      "name": "avatar",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511005,
+      "blocks": 128,
+      "atimeMs": 1521136133544.2522,
+      "mtimeMs": 1521136134512.2585,
+      "ctimeMs": 1521136134512.2585,
+      "birthtimeMs": 1521136134512.2585,
+      "atime": "2018-03-15T17:48:53.544Z",
+      "mtime": "2018-03-15T17:48:54.512Z",
+      "ctime": "2018-03-15T17:48:54.512Z",
+      "birthtime": "2018-03-15T17:48:54.512Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/loader.gif absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/loader.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b41bfcf37a8a365d2c101c9931bc0e75",
+        "mediaType": "image/gif",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/loader.gif",
+      "relativePath": "loader.gif",
+      "extension": "gif",
+      "size": 3256,
+      "prettySize": "3.26 kB",
+      "modifiedTime": "2018-03-15T17:48:53.952Z",
+      "accessTime": "2018-03-15T17:48:53.756Z",
+      "changeTime": "2018-03-15T17:48:53.952Z",
+      "birthTime": "2018-03-15T17:48:53.952Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "loader.gif",
+      "ext": ".gif",
+      "name": "loader",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511006,
+      "blocks": 8,
+      "atimeMs": 1521136133756.2537,
+      "mtimeMs": 1521136133952.255,
+      "ctimeMs": 1521136133952.255,
+      "birthtimeMs": 1521136133952.255,
+      "atime": "2018-03-15T17:48:53.756Z",
+      "mtime": "2018-03-15T17:48:53.952Z",
+      "ctime": "2018-03-15T17:48:53.952Z",
+      "birthtime": "2018-03-15T17:48:53.952Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/overlay-bg.png absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/overlay-bg.png absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/overlay-bg.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9176109b8b53b0cd9be8b698b720be5e",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/overlay-bg.png",
+      "relativePath": "overlay-bg.png",
+      "extension": "png",
+      "size": 935,
+      "prettySize": "935 B",
+      "modifiedTime": "2018-03-15T17:48:53.976Z",
+      "accessTime": "2018-03-15T17:48:53.868Z",
+      "changeTime": "2018-03-15T17:48:53.976Z",
+      "birthTime": "2018-03-15T17:48:53.976Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "overlay-bg.png",
+      "ext": ".png",
+      "name": "overlay-bg",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511104,
+      "blocks": 8,
+      "atimeMs": 1521136133868.2544,
+      "mtimeMs": 1521136133976.2551,
+      "ctimeMs": 1521136133976.2551,
+      "birthtimeMs": 1521136133976.2551,
+      "atime": "2018-03-15T17:48:53.868Z",
+      "mtime": "2018-03-15T17:48:53.976Z",
+      "ctime": "2018-03-15T17:48:53.976Z",
+      "birthtime": "2018-03-15T17:48:53.976Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/overlay-zoom.png absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/overlay-zoom.png absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a7d6622a9770d821ce7244048eb81b4c",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/overlay-zoom.png",
+      "relativePath": "overlay-zoom.png",
+      "extension": "png",
+      "size": 2824,
+      "prettySize": "2.82 kB",
+      "modifiedTime": "2018-03-15T17:48:54.112Z",
+      "accessTime": "2018-03-15T17:48:53.996Z",
+      "changeTime": "2018-03-15T17:48:54.112Z",
+      "birthTime": "2018-03-15T17:48:54.112Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "overlay-zoom.png",
+      "ext": ".png",
+      "name": "overlay-zoom",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511111,
+      "blocks": 8,
+      "atimeMs": 1521136133996.2551,
+      "mtimeMs": 1521136134112.2559,
+      "ctimeMs": 1521136134112.2559,
+      "birthtimeMs": 1521136134112.2559,
+      "atime": "2018-03-15T17:48:53.996Z",
+      "mtime": "2018-03-15T17:48:54.112Z",
+      "ctime": "2018-03-15T17:48:54.112Z",
+      "birthtime": "2018-03-15T17:48:54.112Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/profilepic.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/profilepic.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/profilepic.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7e773edecdc38561e4d4bcd2606811f3",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/profilepic.jpg",
+      "relativePath": "profilepic.jpg",
+      "extension": "jpg",
+      "size": 6766,
+      "prettySize": "6.77 kB",
+      "modifiedTime": "2018-03-15T17:48:54.708Z",
+      "accessTime": "2018-03-15T17:48:54.188Z",
+      "changeTime": "2018-03-15T17:48:54.708Z",
+      "birthTime": "2018-03-15T17:48:54.708Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "profilepic.jpg",
+      "ext": ".jpg",
+      "name": "profilepic",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511150,
+      "blocks": 16,
+      "atimeMs": 1521136134188.2563,
+      "mtimeMs": 1521136134708.2598,
+      "ctimeMs": 1521136134708.2598,
+      "birthtimeMs": 1521136134708.2598,
+      "atime": "2018-03-15T17:48:54.188Z",
+      "mtime": "2018-03-15T17:48:54.708Z",
+      "ctime": "2018-03-15T17:48:54.708Z",
+      "birthtime": "2018-03-15T17:48:54.708Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/sample-image.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/sample-image.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/sample-image.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a6a76c7e087849f9223e1839338779e9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/sample-image.jpg",
+      "relativePath": "sample-image.jpg",
+      "extension": "jpg",
+      "size": 26133,
+      "prettySize": "26.1 kB",
+      "modifiedTime": "2018-03-15T17:48:55.120Z",
+      "accessTime": "2018-03-15T17:48:54.376Z",
+      "changeTime": "2018-03-15T17:48:55.120Z",
+      "birthTime": "2018-03-15T17:48:55.120Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "sample-image.jpg",
+      "ext": ".jpg",
+      "name": "sample-image",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511151,
+      "blocks": 56,
+      "atimeMs": 1521136134376.2576,
+      "mtimeMs": 1521136135120.2625,
+      "ctimeMs": 1521136135120.2625,
+      "birthtimeMs": 1521136135120.2625,
+      "atime": "2018-03-15T17:48:54.376Z",
+      "mtime": "2018-03-15T17:48:55.120Z",
+      "ctime": "2018-03-15T17:48:55.120Z",
+      "birthtime": "2018-03-15T17:48:55.120Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9a5510b73fa8e35066c047347b3e02e3",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-coffee.jpg",
+      "relativePath": "portfolio/modals/m-coffee.jpg",
+      "extension": "jpg",
+      "size": 59618,
+      "prettySize": "59.6 kB",
+      "modifiedTime": "2018-03-15T17:48:57.000Z",
+      "accessTime": "2018-03-15T17:48:56.816Z",
+      "changeTime": "2018-03-15T17:48:57.000Z",
+      "birthTime": "2018-03-15T17:48:57.000Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-coffee.jpg",
+      "ext": ".jpg",
+      "name": "m-coffee",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511160,
+      "blocks": 120,
+      "atimeMs": 1521136136816.2732,
+      "mtimeMs": 1521136137000.2744,
+      "ctimeMs": 1521136137000.2744,
+      "birthtimeMs": 1521136137000.2744,
+      "atime": "2018-03-15T17:48:56.816Z",
+      "mtime": "2018-03-15T17:48:57.000Z",
+      "ctime": "2018-03-15T17:48:57.000Z",
+      "birthtime": "2018-03-15T17:48:57.000Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/coffee.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/coffee.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "de06f5d908fc33bb083d947ca23d0a7f",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/coffee.jpg",
+      "relativePath": "portfolio/coffee.jpg",
+      "extension": "jpg",
+      "size": 75261,
+      "prettySize": "75.3 kB",
+      "modifiedTime": "2018-03-15T17:48:56.484Z",
+      "accessTime": "2018-03-15T17:48:54.952Z",
+      "changeTime": "2018-03-15T17:48:56.484Z",
+      "birthTime": "2018-03-15T17:48:56.484Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "coffee.jpg",
+      "ext": ".jpg",
+      "name": "coffee",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511152,
+      "blocks": 152,
+      "atimeMs": 1521136134952.2612,
+      "mtimeMs": 1521136136484.271,
+      "ctimeMs": 1521136136484.271,
+      "birthtimeMs": 1521136136484.271,
+      "atime": "2018-03-15T17:48:54.952Z",
+      "mtime": "2018-03-15T17:48:56.484Z",
+      "ctime": "2018-03-15T17:48:56.484Z",
+      "birthtime": "2018-03-15T17:48:56.484Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/console.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/console.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "10a557caba8bdbb1f030609c669e4314",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/console.jpg",
+      "relativePath": "portfolio/console.jpg",
+      "extension": "jpg",
+      "size": 104406,
+      "prettySize": "104 kB",
+      "modifiedTime": "2018-03-15T17:48:56.056Z",
+      "accessTime": "2018-03-15T17:48:55.068Z",
+      "changeTime": "2018-03-15T17:48:56.056Z",
+      "birthTime": "2018-03-15T17:48:56.056Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "console.jpg",
+      "ext": ".jpg",
+      "name": "console",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511153,
+      "blocks": 208,
+      "atimeMs": 1521136135068.262,
+      "mtimeMs": 1521136136056.2683,
+      "ctimeMs": 1521136136056.2683,
+      "birthtimeMs": 1521136136056.2683,
+      "atime": "2018-03-15T17:48:55.068Z",
+      "mtime": "2018-03-15T17:48:56.056Z",
+      "ctime": "2018-03-15T17:48:56.056Z",
+      "birthtime": "2018-03-15T17:48:56.056Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/into-the-light.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/into-the-light.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3445f11c05b5a0608b39f3b2cbb0bbf4",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/into-the-light.jpg",
+      "relativePath": "portfolio/into-the-light.jpg",
+      "extension": "jpg",
+      "size": 102255,
+      "prettySize": "102 kB",
+      "modifiedTime": "2018-03-15T17:48:56.788Z",
+      "accessTime": "2018-03-15T17:48:56.056Z",
+      "changeTime": "2018-03-15T17:48:56.788Z",
+      "birthTime": "2018-03-15T17:48:56.788Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "into-the-light.jpg",
+      "ext": ".jpg",
+      "name": "into-the-light",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511156,
+      "blocks": 200,
+      "atimeMs": 1521136136056.2683,
+      "mtimeMs": 1521136136788.273,
+      "ctimeMs": 1521136136788.273,
+      "birthtimeMs": 1521136136788.273,
+      "atime": "2018-03-15T17:48:56.056Z",
+      "mtime": "2018-03-15T17:48:56.788Z",
+      "ctime": "2018-03-15T17:48:56.788Z",
+      "birthtime": "2018-03-15T17:48:56.788Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/origami.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/origami.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5bb3df6308eaa82bdf74a53d339f6b86",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/origami.jpg",
+      "relativePath": "portfolio/origami.jpg",
+      "extension": "jpg",
+      "size": 83530,
+      "prettySize": "83.5 kB",
+      "modifiedTime": "2018-03-15T17:48:56.908Z",
+      "accessTime": "2018-03-15T17:48:56.508Z",
+      "changeTime": "2018-03-15T17:48:56.908Z",
+      "birthTime": "2018-03-15T17:48:56.908Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "origami.jpg",
+      "ext": ".jpg",
+      "name": "origami",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511159,
+      "blocks": 168,
+      "atimeMs": 1521136136508.2712,
+      "mtimeMs": 1521136136908.2737,
+      "ctimeMs": 1521136136908.2737,
+      "birthtimeMs": 1521136136908.2737,
+      "atime": "2018-03-15T17:48:56.508Z",
+      "mtime": "2018-03-15T17:48:56.908Z",
+      "ctime": "2018-03-15T17:48:56.908Z",
+      "birthtime": "2018-03-15T17:48:56.908Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f20aeacdaa64a9eb8f9eef9554245d48",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-intothelight.jpg",
+      "relativePath": "portfolio/modals/m-intothelight.jpg",
+      "extension": "jpg",
+      "size": 112530,
+      "prettySize": "113 kB",
+      "modifiedTime": "2018-03-15T17:48:57.380Z",
+      "accessTime": "2018-03-15T17:48:57.156Z",
+      "changeTime": "2018-03-15T17:48:57.380Z",
+      "birthTime": "2018-03-15T17:48:57.380Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-intothelight.jpg",
+      "ext": ".jpg",
+      "name": "m-intothelight",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511162,
+      "blocks": 224,
+      "atimeMs": 1521136137156.2754,
+      "mtimeMs": 1521136137380.2769,
+      "ctimeMs": 1521136137380.2769,
+      "birthtimeMs": 1521136137380.2769,
+      "atime": "2018-03-15T17:48:57.156Z",
+      "mtime": "2018-03-15T17:48:57.380Z",
+      "ctime": "2018-03-15T17:48:57.380Z",
+      "birthtime": "2018-03-15T17:48:57.380Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-origami.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-origami.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0f03a9bee6e8f1f6b48007d6c096dad9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-origami.jpg",
+      "relativePath": "portfolio/modals/m-origami.jpg",
+      "extension": "jpg",
+      "size": 77689,
+      "prettySize": "77.7 kB",
+      "modifiedTime": "2018-03-15T17:48:59.436Z",
+      "accessTime": "2018-03-15T17:48:58.756Z",
+      "changeTime": "2018-03-15T17:48:59.436Z",
+      "birthTime": "2018-03-15T17:48:59.436Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-origami.jpg",
+      "ext": ".jpg",
+      "name": "m-origami",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511166,
+      "blocks": 152,
+      "atimeMs": 1521136138756.2856,
+      "mtimeMs": 1521136139436.2898,
+      "ctimeMs": 1521136139436.2898,
+      "birthtimeMs": 1521136139436.2898,
+      "atime": "2018-03-15T17:48:58.756Z",
+      "mtime": "2018-03-15T17:48:59.436Z",
+      "ctime": "2018-03-15T17:48:59.436Z",
+      "birthtime": "2018-03-15T17:48:59.436Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/avatar.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/avatar.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/avatar.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3923cf943ed81145f357ef2c1bebd13c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/overlay-bg.png absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/overlay-bg.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/overlay-bg.png absPath of file",
+      "internal": {
+        "contentDigest": "9176109b8b53b0cd9be8b698b720be5e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/overlay-zoom.png absPath of file",
+      "internal": {
+        "contentDigest": "a7d6622a9770d821ce7244048eb81b4c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/profilepic.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/profilepic.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/profilepic.jpg absPath of file",
+      "internal": {
+        "contentDigest": "7e773edecdc38561e4d4bcd2606811f3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/sample-image.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/sample-image.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/sample-image.jpg absPath of file",
+      "internal": {
+        "contentDigest": "a6a76c7e087849f9223e1839338779e9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file",
+      "internal": {
+        "contentDigest": "9a5510b73fa8e35066c047347b3e02e3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/farmerboy.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/farmerboy.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ac51137c942715b7decebd1e166080df",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/farmerboy.jpg",
+      "relativePath": "portfolio/farmerboy.jpg",
+      "extension": "jpg",
+      "size": 190044,
+      "prettySize": "190 kB",
+      "modifiedTime": "2018-03-15T17:48:57.748Z",
+      "accessTime": "2018-03-15T17:48:55.116Z",
+      "changeTime": "2018-03-15T17:48:57.748Z",
+      "birthTime": "2018-03-15T17:48:57.748Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "farmerboy.jpg",
+      "ext": ".jpg",
+      "name": "farmerboy",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511154,
+      "blocks": 376,
+      "atimeMs": 1521136135116.2625,
+      "mtimeMs": 1521136137748.279,
+      "ctimeMs": 1521136137748.279,
+      "birthtimeMs": 1521136137748.279,
+      "atime": "2018-03-15T17:48:55.116Z",
+      "mtime": "2018-03-15T17:48:57.748Z",
+      "ctime": "2018-03-15T17:48:57.748Z",
+      "birthtime": "2018-03-15T17:48:57.748Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/girl.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/girl.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a95478b7f3fbeb159495ca2d36a6ccb7",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/girl.jpg",
+      "relativePath": "portfolio/girl.jpg",
+      "extension": "jpg",
+      "size": 150080,
+      "prettySize": "150 kB",
+      "modifiedTime": "2018-03-15T17:48:55.752Z",
+      "accessTime": "2018-03-15T17:48:55.208Z",
+      "changeTime": "2018-03-15T17:48:55.752Z",
+      "birthTime": "2018-03-15T17:48:55.752Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "girl.jpg",
+      "ext": ".jpg",
+      "name": "girl",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511155,
+      "blocks": 296,
+      "atimeMs": 1521136135208.263,
+      "mtimeMs": 1521136135752.2664,
+      "ctimeMs": 1521136135752.2664,
+      "birthtimeMs": 1521136135752.2664,
+      "atime": "2018-03-15T17:48:55.208Z",
+      "mtime": "2018-03-15T17:48:55.752Z",
+      "ctime": "2018-03-15T17:48:55.752Z",
+      "birthtime": "2018-03-15T17:48:55.752Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/retrocam.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/retrocam.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "522192d97b644075d576df8f7f58f3a0",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/retrocam.jpg",
+      "relativePath": "portfolio/retrocam.jpg",
+      "extension": "jpg",
+      "size": 176219,
+      "prettySize": "176 kB",
+      "modifiedTime": "2018-03-15T17:49:00.292Z",
+      "accessTime": "2018-03-15T17:48:59.708Z",
+      "changeTime": "2018-03-15T17:49:00.292Z",
+      "birthTime": "2018-03-15T17:49:00.292Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "retrocam.jpg",
+      "ext": ".jpg",
+      "name": "retrocam",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511168,
+      "blocks": 352,
+      "atimeMs": 1521136139708.2917,
+      "mtimeMs": 1521136140292.2954,
+      "ctimeMs": 1521136140292.2954,
+      "birthtimeMs": 1521136140292.2954,
+      "atime": "2018-03-15T17:48:59.708Z",
+      "mtime": "2018-03-15T17:49:00.292Z",
+      "ctime": "2018-03-15T17:49:00.292Z",
+      "birthtime": "2018-03-15T17:49:00.292Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-console.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-console.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc53e451be2267be73395b7022b23956",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-console.jpg",
+      "relativePath": "portfolio/modals/m-console.jpg",
+      "extension": "jpg",
+      "size": 195994,
+      "prettySize": "196 kB",
+      "modifiedTime": "2018-03-15T17:48:58.324Z",
+      "accessTime": "2018-03-15T17:48:56.920Z",
+      "changeTime": "2018-03-15T17:48:58.324Z",
+      "birthTime": "2018-03-15T17:48:58.324Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-console.jpg",
+      "ext": ".jpg",
+      "name": "m-console",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511161,
+      "blocks": 384,
+      "atimeMs": 1521136136920.274,
+      "mtimeMs": 1521136138324.2827,
+      "ctimeMs": 1521136138324.2827,
+      "birthtimeMs": 1521136138324.2827,
+      "atime": "2018-03-15T17:48:56.920Z",
+      "mtime": "2018-03-15T17:48:58.324Z",
+      "ctime": "2018-03-15T17:48:58.324Z",
+      "birthtime": "2018-03-15T17:48:58.324Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/coffee.jpg absPath of file",
+      "internal": {
+        "contentDigest": "de06f5d908fc33bb083d947ca23d0a7f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/console.jpg absPath of file",
+      "internal": {
+        "contentDigest": "10a557caba8bdbb1f030609c669e4314",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/into-the-light.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3445f11c05b5a0608b39f3b2cbb0bbf4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/origami.jpg absPath of file",
+      "internal": {
+        "contentDigest": "5bb3df6308eaa82bdf74a53d339f6b86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f20aeacdaa64a9eb8f9eef9554245d48",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-origami.jpg absPath of file",
+      "internal": {
+        "contentDigest": "0f03a9bee6e8f1f6b48007d6c096dad9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/judah.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/judah.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f5bf96d39756b9a7267076a3b81a5e98",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/judah.jpg",
+      "relativePath": "portfolio/judah.jpg",
+      "extension": "jpg",
+      "size": 197288,
+      "prettySize": "197 kB",
+      "modifiedTime": "2018-03-15T17:48:56.444Z",
+      "accessTime": "2018-03-15T17:48:56.056Z",
+      "changeTime": "2018-03-15T17:48:56.444Z",
+      "birthTime": "2018-03-15T17:48:56.444Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio",
+      "base": "judah.jpg",
+      "ext": ".jpg",
+      "name": "judah",
+      "relativeDirectory": "portfolio",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511157,
+      "blocks": 392,
+      "atimeMs": 1521136136056.2683,
+      "mtimeMs": 1521136136444.2708,
+      "ctimeMs": 1521136136444.2708,
+      "birthtimeMs": 1521136136444.2708,
+      "atime": "2018-03-15T17:48:56.056Z",
+      "mtime": "2018-03-15T17:48:56.444Z",
+      "ctime": "2018-03-15T17:48:56.444Z",
+      "birthtime": "2018-03-15T17:48:56.444Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "38ce1edce458e6aa5b93aae738cd8caa",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-farmerboy.jpg",
+      "relativePath": "portfolio/modals/m-farmerboy.jpg",
+      "extension": "jpg",
+      "size": 252567,
+      "prettySize": "253 kB",
+      "modifiedTime": "2018-03-15T17:48:58.720Z",
+      "accessTime": "2018-03-15T17:48:57.240Z",
+      "changeTime": "2018-03-15T17:48:58.720Z",
+      "birthTime": "2018-03-15T17:48:58.720Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-farmerboy.jpg",
+      "ext": ".jpg",
+      "name": "m-farmerboy",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511163,
+      "blocks": 496,
+      "atimeMs": 1521136137240.276,
+      "mtimeMs": 1521136138720.2854,
+      "ctimeMs": 1521136138720.2854,
+      "birthtimeMs": 1521136138720.2854,
+      "atime": "2018-03-15T17:48:57.240Z",
+      "mtime": "2018-03-15T17:48:58.720Z",
+      "ctime": "2018-03-15T17:48:58.720Z",
+      "birthtime": "2018-03-15T17:48:58.720Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-girl.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-girl.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cca489424290988698ceb5e8c5552189",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-girl.jpg",
+      "relativePath": "portfolio/modals/m-girl.jpg",
+      "extension": "jpg",
+      "size": 231027,
+      "prettySize": "231 kB",
+      "modifiedTime": "2018-03-15T17:48:58.700Z",
+      "accessTime": "2018-03-15T17:48:57.416Z",
+      "changeTime": "2018-03-15T17:48:58.700Z",
+      "birthTime": "2018-03-15T17:48:58.700Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-girl.jpg",
+      "ext": ".jpg",
+      "name": "m-girl",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511164,
+      "blocks": 456,
+      "atimeMs": 1521136137416.277,
+      "mtimeMs": 1521136138700.2852,
+      "ctimeMs": 1521136138700.2852,
+      "birthtimeMs": 1521136138700.2852,
+      "atime": "2018-03-15T17:48:57.416Z",
+      "mtime": "2018-03-15T17:48:58.700Z",
+      "ctime": "2018-03-15T17:48:58.700Z",
+      "birthtime": "2018-03-15T17:48:58.700Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "91b65a93128ed7ef064fad7cdf859e69",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-retrocam.jpg",
+      "relativePath": "portfolio/modals/m-retrocam.jpg",
+      "extension": "jpg",
+      "size": 214981,
+      "prettySize": "215 kB",
+      "modifiedTime": "2018-03-15T17:48:59.700Z",
+      "accessTime": "2018-03-15T17:48:58.760Z",
+      "changeTime": "2018-03-15T17:48:59.700Z",
+      "birthTime": "2018-03-15T17:48:59.700Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-retrocam.jpg",
+      "ext": ".jpg",
+      "name": "m-retrocam",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511167,
+      "blocks": 424,
+      "atimeMs": 1521136138760.2856,
+      "mtimeMs": 1521136139700.2915,
+      "ctimeMs": 1521136139700.2915,
+      "birthtimeMs": 1521136139700.2915,
+      "atime": "2018-03-15T17:48:58.760Z",
+      "mtime": "2018-03-15T17:48:59.700Z",
+      "ctime": "2018-03-15T17:48:59.700Z",
+      "birthtime": "2018-03-15T17:48:59.700Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/farmerboy.jpg absPath of file",
+      "internal": {
+        "contentDigest": "ac51137c942715b7decebd1e166080df",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/girl.jpg absPath of file",
+      "internal": {
+        "contentDigest": "a95478b7f3fbeb159495ca2d36a6ccb7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/retrocam.jpg absPath of file",
+      "internal": {
+        "contentDigest": "522192d97b644075d576df8f7f58f3a0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-console.jpg absPath of file",
+      "internal": {
+        "contentDigest": "dc53e451be2267be73395b7022b23956",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-judah.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-judah.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d0599ca57ac4b7531f0d4c30fdc7a2b9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-judah.jpg",
+      "relativePath": "portfolio/modals/m-judah.jpg",
+      "extension": "jpg",
+      "size": 296894,
+      "prettySize": "297 kB",
+      "modifiedTime": "2018-03-15T17:48:59.416Z",
+      "accessTime": "2018-03-15T17:48:57.760Z",
+      "changeTime": "2018-03-15T17:48:59.416Z",
+      "birthTime": "2018-03-15T17:48:59.416Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images/portfolio/modals",
+      "base": "m-judah.jpg",
+      "ext": ".jpg",
+      "name": "m-judah",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511165,
+      "blocks": 584,
+      "atimeMs": 1521136137760.2793,
+      "mtimeMs": 1521136139416.2898,
+      "ctimeMs": 1521136139416.2898,
+      "birthtimeMs": 1521136139416.2898,
+      "atime": "2018-03-15T17:48:57.760Z",
+      "mtime": "2018-03-15T17:48:59.416Z",
+      "ctime": "2018-03-15T17:48:59.416Z",
+      "birthtime": "2018-03-15T17:48:59.416Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/judah.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f5bf96d39756b9a7267076a3b81a5e98",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file",
+      "internal": {
+        "contentDigest": "38ce1edce458e6aa5b93aae738cd8caa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-girl.jpg absPath of file",
+      "internal": {
+        "contentDigest": "cca489424290988698ceb5e8c5552189",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file",
+      "internal": {
+        "contentDigest": "91b65a93128ed7ef064fad7cdf859e69",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/portfolio/modals/m-judah.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d0599ca57ac4b7531f0d4c30fdc7a2b9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/header-background.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/header-background.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/header-background.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "395df93f3a2d8a841031e95505e05fa4",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/header-background.jpg",
+      "relativePath": "header-background.jpg",
+      "extension": "jpg",
+      "size": 534867,
+      "prettySize": "535 kB",
+      "modifiedTime": "2018-03-15T17:48:54.872Z",
+      "accessTime": "2018-03-15T17:48:53.756Z",
+      "changeTime": "2018-03-15T17:48:54.872Z",
+      "birthTime": "2018-03-15T17:48:54.872Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "header-background.jpg",
+      "ext": ".jpg",
+      "name": "header-background",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511007,
+      "blocks": 1048,
+      "atimeMs": 1521136133756.2537,
+      "mtimeMs": 1521136134872.2607,
+      "ctimeMs": 1521136134872.2607,
+      "birthtimeMs": 1521136134872.2607,
+      "atime": "2018-03-15T17:48:53.756Z",
+      "mtime": "2018-03-15T17:48:54.872Z",
+      "ctime": "2018-03-15T17:48:54.872Z",
+      "birthtime": "2018-03-15T17:48:54.872Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/header-background.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/header-background.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/header-background.jpg absPath of file",
+      "internal": {
+        "contentDigest": "395df93f3a2d8a841031e95505e05fa4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/var/www/html/ResumePage/src/assets/images/testimonials-bg.jpg absPath of file": {
+      "id": "/var/www/html/ResumePage/src/assets/images/testimonials-bg.jpg absPath of file",
+      "children": [
+        "/var/www/html/ResumePage/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f063209a66807e69329fada1e2590674",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/var/www/html/ResumePage/src/assets/images/testimonials-bg.jpg",
+      "relativePath": "testimonials-bg.jpg",
+      "extension": "jpg",
+      "size": 812011,
+      "prettySize": "812 kB",
+      "modifiedTime": "2018-03-15T17:49:01.360Z",
+      "accessTime": "2018-03-15T17:48:59.708Z",
+      "changeTime": "2018-03-15T17:49:01.360Z",
+      "birthTime": "2018-03-15T17:49:01.360Z",
+      "root": "/",
+      "dir": "/var/www/html/ResumePage/src/assets/images",
+      "base": "testimonials-bg.jpg",
+      "ext": ".jpg",
+      "name": "testimonials-bg",
+      "relativeDirectory": "",
+      "dev": 64769,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2511169,
+      "blocks": 1592,
+      "atimeMs": 1521136139708.2917,
+      "mtimeMs": 1521136141360.3022,
+      "ctimeMs": 1521136141360.3022,
+      "birthtimeMs": 1521136141360.3022,
+      "atime": "2018-03-15T17:48:59.708Z",
+      "mtime": "2018-03-15T17:49:01.360Z",
+      "ctime": "2018-03-15T17:49:01.360Z",
+      "birthtime": "2018-03-15T17:49:01.360Z"
+    },
+    "/var/www/html/ResumePage/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp": {
+      "id": "/var/www/html/ResumePage/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/var/www/html/ResumePage/src/assets/images/testimonials-bg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f063209a66807e69329fada1e2590674",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/var/www/html/ResumePage/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/var/www/html/ResumePage/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "08922e412fbfbcb15f7cf181380f8af0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/var/www/html/ResumePage/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/var/www/html/ResumePage/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4b05035cdb671168cf472a6ff5a73fa6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/var/www/html/ResumePage/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/var/www/html/ResumePage/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f9b6e0a8daeb271468e756be154f14f8",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "b24c47e189e602fdcff93d759e00376f"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}
