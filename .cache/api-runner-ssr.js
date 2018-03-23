@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/var/www/html/ResumePage/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
+      plugin: require('/Users/fuchenxu/Library/Mobile Documents/com~apple~CloudDocs/Develop/Projects/ResumePage/node_modules/gatsby-plugin-typography/gatsby-ssr.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
     },{
-      plugin: require('/var/www/html/ResumePage/node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js'),
+      plugin: require('/Users/fuchenxu/Library/Mobile Documents/com~apple~CloudDocs/Develop/Projects/ResumePage/node_modules/gatsby-plugin-google-fonts/gatsby-ssr.js'),
       options: {"plugins":[],"fonts":["librebaskerville","open sans"]},
     },{
-      plugin: require('/var/www/html/ResumePage/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/Users/fuchenxu/Library/Mobile Documents/com~apple~CloudDocs/Develop/Projects/ResumePage/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
